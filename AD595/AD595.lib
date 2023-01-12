@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AD595
+#
+DEF AD595 IC 0 40 Y Y 1 L N
+F0 "IC" -400 650 50 H V L BNN
+F1 "AD595" -400 -800 50 H V L BNN
+F2 "DIL14" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -400 -700 400 600 0 0 10 f
+X -IN 14 -500 400 100 R 40 40 0 0 I 
+X +IN 1 -500 500 100 R 40 40 0 0 I 
+X +C 2 -500 200 100 R 40 40 0 0 I 
+X -C 6 -500 100 100 R 40 40 0 0 I 
+X +T 3 -500 -100 100 R 40 40 0 0 P 
+X -T 5 -500 -200 100 R 40 40 0 0 P 
+X +ALM 12 500 0 100 L 40 40 0 0 P 
+X -ALM 13 500 -200 100 L 40 40 0 0 P 
+X FB 8 -500 -600 100 R 40 40 0 0 P 
+X COMP 10 -500 -400 100 R 40 40 0 0 P 
+X VO 9 500 200 100 L 40 40 0 0 O 
+X V+ 11 500 500 100 L 40 40 0 0 W 
+X V- 7 500 -600 100 L 40 40 0 0 W 
+X COM 4 500 -400 100 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
