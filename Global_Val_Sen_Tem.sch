@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Modulo de temperatura Global Sensor"
+Date "2023-01-12"
+Rev "1"
+Comp "Syracuza"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -88,45 +88,45 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole Hid3
 U 1 1 62DB66C0
-P 5950 7275
-F 0 "Hid3" H 5875 7400 50  0000 L CNN
-F 1 "MH" H 5750 7275 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5950 7275 50  0001 C CNN
-F 3 "~" H 5950 7275 50  0001 C CNN
-	1    5950 7275
+P 5125 7500
+F 0 "Hid3" H 5050 7625 50  0000 L CNN
+F 1 "MH" H 4925 7500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5125 7500 50  0001 C CNN
+F 3 "~" H 5125 7500 50  0001 C CNN
+	1    5125 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole His3
 U 1 1 62DB6850
-P 5950 7025
-F 0 "His3" H 5875 7150 50  0000 L CNN
-F 1 "MH" H 5750 7025 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5950 7025 50  0001 C CNN
-F 3 "~" H 5950 7025 50  0001 C CNN
-	1    5950 7025
+P 5125 7250
+F 0 "His3" H 5050 7375 50  0000 L CNN
+F 1 "MH" H 4925 7250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5125 7250 50  0001 C CNN
+F 3 "~" H 5125 7250 50  0001 C CNN
+	1    5125 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole Hdd3
 U 1 1 62DB685A
-P 6300 7275
-F 0 "Hdd3" H 6225 7400 50  0000 L CNN
-F 1 "MH" H 6100 7275 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 6300 7275 50  0001 C CNN
-F 3 "~" H 6300 7275 50  0001 C CNN
-	1    6300 7275
+P 5475 7500
+F 0 "Hdd3" H 5400 7625 50  0000 L CNN
+F 1 "MH" H 5275 7500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5475 7500 50  0001 C CNN
+F 3 "~" H 5475 7500 50  0001 C CNN
+	1    5475 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole Hrs3
 U 1 1 62DB6864
-P 6300 7025
-F 0 "Hrs3" H 6225 7150 50  0000 L CNN
-F 1 "MH" H 6100 7025 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 6300 7025 50  0001 C CNN
-F 3 "~" H 6300 7025 50  0001 C CNN
-	1    6300 7025
+P 5475 7250
+F 0 "Hrs3" H 5400 7375 50  0000 L CNN
+F 1 "MH" H 5275 7250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5475 7250 50  0001 C CNN
+F 3 "~" H 5475 7250 50  0001 C CNN
+	1    5475 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -563,16 +563,10 @@ Wire Notes Line style solid
 	6725 4200 3850 4200
 Wire Notes Line style solid
 	3850 4200 3850 1150
-Text Notes 5550 6725 0    79   ~ 16
-Agujeros de Montaje
 Wire Notes Line style solid
-	5475 6525 6825 6525
+	6000 6750 6000 7700
 Wire Notes Line style solid
-	6825 6525 6825 7475
-Wire Notes Line style solid
-	6825 7475 5475 7475
-Wire Notes Line style solid
-	5475 7475 5475 6525
+	6000 7700 4650 7700
 Text Notes 7925 1475 0    118  ~ 24
 ADC - ADSD1115
 Wire Notes Line style solid
@@ -583,4 +577,10 @@ Wire Notes Line style solid
 	9875 3050 7675 3050
 Wire Notes Line style solid
 	7675 3050 7675 1250
+Wire Notes Line style solid
+	4650 7700 4650 6750
+Wire Notes Line style solid
+	4650 6750 6000 6750
+Text Notes 4725 6950 0    79   ~ 16
+Agujeros de Montaje
 $EndSCHEMATC
